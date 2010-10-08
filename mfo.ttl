@@ -1,0 +1,120 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix mfo: <http://purl.org/ontology/mfo/> .
+
+<http://purl.org/ontology/mfo/> a owl:Ontology ;
+    dct:title "The Media Format Ontology";
+    owl:versionInfo "Revision 0.01";
+    dct:description """
+        The Media Format Ontology is a small extension to the Music Ontology
+        that provides a series of concepts relate to media formats derived
+        from the MusicBrainz database.
+    """ ;
+    foaf:maker <http://kurtisrandom.com/foaf.rdf#kurtjx> ;
+    owl:imports <http://purl.org/ontology/mo/> .
+
+mo:Medium
+    a owl:Class;
+    rdfs:label "Medium";
+    rdfs:comment "A means or instrumentality for storing or communicating musical manifestation.";
+    rdfs:isDefinedBy <http://purl.org/ontology/mo/> .
+
+
+mfo:CD a owl:Class;
+    rdfs:label "CD" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1982"^^xsd:gYear .
+    
+mfo:DVD a owl:Class;
+    rdfs:label "DVD" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1995"^^xsd:gYear .
+    
+mfo:SACD a owl:Class;
+    rdfs:label "SACD" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1999"^^xsd:gYear .
+    
+mfo:DualDisc a owl:Class;
+    rdfs:label "DualDisc" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "2004"^^xsd:gYear .
+    
+mfo:LaserDisc a owl:Class;
+    rdfs:label "LaserDisc" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1978"^^xsd:gYear .
+    
+mfo:MiniDisc a owl:Class;
+    rdfs:label "MiniDisc" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1992"^^xsd:gYear .
+    
+mfo:Vinyl a owl:Class;
+    rdfs:label "Vinyl" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1895"^^xsd:gYear .
+    
+mfo:Cassette a owl:Class;
+    rdfs:label "Cassette" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1964"^^xsd:gYear .
+    
+mfo:Cartridge a owl:Class;
+    rdfs:label "Cartridge" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1962"^^xsd:gYear .
+    
+mfo:Reel-to-reel a owl:Class;
+    rdfs:label "Reel-to-reel" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1935"^^xsd:gYear .
+    
+mfo:DAT a owl:Class;
+    rdfs:label "DAT" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1976"^^xsd:gYear .
+    
+mfo:Digital_Media a owl:Class;
+    rdfs:label "Digital Media" ;
+    rdfs:subClassOf mo:Medium .
+    
+mfo:Other a owl:Class;
+    rdfs:label "Other" ;
+    rdfs:subClassOf mo:Medium .
+    
+mfo:Wax_Cylinder a owl:Class;
+    rdfs:label "Wax Cylinder" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1877"^^xsd:gYear .
+    
+mfo:Piano_Roll a owl:Class;
+    rdfs:label "Piano Roll" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1883"^^xsd:gYear .
+    
+mfo:DCC a owl:Class;
+    rdfs:label "DCC" ;
+    rdfs:subClassOf mo:Medium ;
+    dct:created "1992"^^xsd:gYear .
+    
+mfo:HD-DVD a owl:Class;
+    rdfs:label "HD-DVD" ;
+    rdfs:subClassOf mo:Medium .
+    
+mfo:DVD-Audio a owl:Class;
+    rdfs:label "DVD-Audio" ;
+    rdfs:subClassOf mo:Medium .
+    
+mfo:DVD-Video a owl:Class;
+    rdfs:label "DVD-Video" ;
+    rdfs:subClassOf mo:Medium .
+    
+mfo:Blu-ray a owl:Class;
+    rdfs:label "Blu-ray" ;
+    rdfs:subClassOf mo:Medium .
+    

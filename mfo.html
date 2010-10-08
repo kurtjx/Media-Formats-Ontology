@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html 
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mvcb="http://webns.net/mvcb/"
+  xml:lang="en"
+> 
+
+  <head>
+    <title>The Media Format Ontology</title>
+    <meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
+    <link rel="mvvb:generatorAgent" type="application/rdf+xml" title="DOAP" href="http://rdfohloh.wikier.org/project/specgen" />
+    <link rel="meta" type="application/rdf+xml" title="FOAF" href="http://kurtisrandom.com/foaf.rdf" />
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta name="author" content="Kurt Jacobson" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+
+    <h1 id="title">MFO</h1>
+
+    <h2 id="subtitle">The Media Format Ontology - MFO</h2>
+
+    <h3 id="mymw-doctype">Working Draft</h3>
+
+    <dl>
+
+
+      <dt>Latest version:</dt>
+      <dd><a href="http://purl.org/ontology/mfo/">http://purl.org/ontology/mfo/</a> (<a href="mfo.owl">RDF/XML</a>, <a href="mfo.ttl">Turtle</a>)</dd>
+
+      <dt>Last Update:</dt>
+      <dd>Date: 2010-10-08 17:19:04.995063</dd>
+
+      <dt>Editors:</dt>
+      <dd><a href="http://kurtisrandom.com/" target="_blank">Kurt Jacobson</a>, 
+	<a href="http://www.elec.qmul.ac.uk/digitalmusic/" target="_blank">
+		Centre for Digital Music Queen Mary University of London</a></dd>
+
+      <dt>Authors:</dt>
+      <dd><a href="http://kurtisrandom.com/" target="_blank">Kurt Jacobson</a>, 
+	<a href="http://www.elec.qmul.ac.uk/digitalmusic/" target="_blank">
+		Centre for Digital Music Queen Mary University of London</a></dd>
+
+
+      <dt>Contributors:</dt>
+      <dd>See <a href="#acknowledgments">acknowledgements</a></dd>
+
+    </dl>
+
+    <hr />
+
+    <p class="copyright">You are granted a license to use, reproduce
+    and create derivative works of this document under <a
+     rel="license"
+    href="http://creativecommons.org/licenses/by/3.0/">Creative
+    Commons Attribution 3.0 Unported License</a>.  This copyright applies to <span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">The Similarity Ontology</span> specification and RDF.  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+    </p>
+
+    <!-- ===================================================================== -->
+
+    <hr />
+
+    <h2 id="abstract">Abstract</h2>
+    The Media Format Ontology is a small extension to the <a href="http://purl.org/ontology/mo/">Music Ontology</a>
+        that provides a series of concepts relate to media formats derived
+        from the MusicBrainz database.
+    <h2>Ontology at a glance</h2>
+    <div style="padding: 1em; border: dotted; background-color: #ddd;"><p>Classes:  <a href="#Blu-ray">Blu-ray</a>,  <a href="#CD">CD</a>,  <a href="#Cartridge">Cartridge</a>,  <a href="#Cassette">Cassette</a>,  <a href="#DAT">DAT</a>,  <a href="#DCC">DCC</a>,  <a href="#DVD">DVD</a>,  <a href="#DVD-Audio">DVD-Audio</a>,  <a href="#DVD-Video">DVD-Video</a>,  <a href="#Digital_Media">Digital_Media</a>,  <a href="#DualDisc">DualDisc</a>,  <a href="#HD-DVD">HD-DVD</a>,  <a href="#LaserDisc">LaserDisc</a>,  <a href="#MiniDisc">MiniDisc</a>,  <a href="#Other">Other</a>,  <a href="#Piano_Roll">Piano_Roll</a>,  <a href="#Reel-to-reel">Reel-to-reel</a>,  <a href="#SACD">SACD</a>,  <a href="#Vinyl">Vinyl</a>,  <a href="#Wax_Cylinder">Wax_Cylinder</a>, 
+</p>
+</div>
+
+    <!-- ===================================================================== -->
+
+    <h2 id="reference">Cross-reference for MFO classes and properties</h2>
+
+   <!-- The following is the script-generated list of classes and properties -->
+    <div class="specterm" id="Blu-ray">
+<h3>Class: mfo:Blu-ray</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Blu-ray">http://purl.org/ontology/mfo/Blu-ray</a></p><p><em>Blu-ray</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="CD">
+<h3>Class: mfo:CD</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/CD">http://purl.org/ontology/mfo/CD</a></p><p><em>CD</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Cartridge">
+<h3>Class: mfo:Cartridge</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Cartridge">http://purl.org/ontology/mfo/Cartridge</a></p><p><em>Cartridge</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Cassette">
+<h3>Class: mfo:Cassette</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Cassette">http://purl.org/ontology/mfo/Cassette</a></p><p><em>Cassette</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DAT">
+<h3>Class: mfo:DAT</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DAT">http://purl.org/ontology/mfo/DAT</a></p><p><em>DAT</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DCC">
+<h3>Class: mfo:DCC</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DCC">http://purl.org/ontology/mfo/DCC</a></p><p><em>DCC</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DVD">
+<h3>Class: mfo:DVD</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DVD">http://purl.org/ontology/mfo/DVD</a></p><p><em>DVD</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DVD-Audio">
+<h3>Class: mfo:DVD-Audio</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DVD-Audio">http://purl.org/ontology/mfo/DVD-Audio</a></p><p><em>DVD-Audio</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DVD-Video">
+<h3>Class: mfo:DVD-Video</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DVD-Video">http://purl.org/ontology/mfo/DVD-Video</a></p><p><em>DVD-Video</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Digital_Media">
+<h3>Class: mfo:Digital_Media</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Digital_Media">http://purl.org/ontology/mfo/Digital_Media</a></p><p><em>Digital Media</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="DualDisc">
+<h3>Class: mfo:DualDisc</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/DualDisc">http://purl.org/ontology/mfo/DualDisc</a></p><p><em>DualDisc</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="HD-DVD">
+<h3>Class: mfo:HD-DVD</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/HD-DVD">http://purl.org/ontology/mfo/HD-DVD</a></p><p><em>HD-DVD</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="LaserDisc">
+<h3>Class: mfo:LaserDisc</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/LaserDisc">http://purl.org/ontology/mfo/LaserDisc</a></p><p><em>LaserDisc</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="MiniDisc">
+<h3>Class: mfo:MiniDisc</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/MiniDisc">http://purl.org/ontology/mfo/MiniDisc</a></p><p><em>MiniDisc</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Other">
+<h3>Class: mfo:Other</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Other">http://purl.org/ontology/mfo/Other</a></p><p><em>Other</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Piano_Roll">
+<h3>Class: mfo:Piano_Roll</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Piano_Roll">http://purl.org/ontology/mfo/Piano_Roll</a></p><p><em>Piano Roll</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Reel-to-reel">
+<h3>Class: mfo:Reel-to-reel</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Reel-to-reel">http://purl.org/ontology/mfo/Reel-to-reel</a></p><p><em>Reel-to-reel</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="SACD">
+<h3>Class: mfo:SACD</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/SACD">http://purl.org/ontology/mfo/SACD</a></p><p><em>SACD</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Vinyl">
+<h3>Class: mfo:Vinyl</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Vinyl">http://purl.org/ontology/mfo/Vinyl</a></p><p><em>Vinyl</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+<div class="specterm" id="Wax_Cylinder">
+<h3>Class: mfo:Wax_Cylinder</h3>
+<p style="font-family:monospace; font-size:0.em;">URI: <a href="http://purl.org/ontology/mfo/Wax_Cylinder">http://purl.org/ontology/mfo/Wax_Cylinder</a></p><p><em>Wax Cylinder</em> -  </p>
+<dl><dt>sub-class-of:</dt><dd><a href="http://purl.org/ontology/mo/Medium" style="font-family: monospace;">http://purl.org/ontology/mo/Medium</a></dd><dt>status:</dt> <dd><i>None</i></dd></dl>
+<p style="float: right; font-size: small;">[<a href="#sec-glance">back to top</a>]</p>
+
+
+
+</div>
+
+
+    <!-- End of the terms list -->
+
+    <!-- ===================================================================== -->
+
+    <h2 id="references">A References</h2>
+
+    <dl>
+      <dt class="label" id="ref-some">Music Ontology</dt>
+
+      <dd><em><a href="http://purl.org/ontology/mo/">Music
+      Ontology</a></em> a thorough and mature ontology for describing
+      music-related data.  sim:MusicalThing is an owl:unionOf several
+      concepts in the Music Ontology</dd>
+      <!--<dt class="label" id="ref-some">MySpo</dt>
+      <dd><em><a href="http://purl.org/ontology/myspace#">MySpace Ontology</a></em> a small ontology to describe 
+		relationships on myspace</dd>-->
+    </dl>
+
+    <!-- ===================================================================== -->
+
+    <h2 id="changes">B Changes in this version (Non-Normative)</h2>
+        <h3>2010-10-08</h3>
+	<ul>
+	  <li>first publication</li>
+	  <li>all URIs are pulled from
+	  the <code>musicbrainz.medium_format.name</code> column in
+	  the MusicBrainz NGS database - all space " " characters are
+	  replaced with underscore "_" and then URL encoded to
+	  generate a URI from the database column</li>
+	  
+	</ul>
+
+  </body>
+
+</html>
+
+<!-- specification regenerated by SpecGen5 at 17:19:04 10/08/10 CDT -->

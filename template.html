@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html 
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mvcb="http://webns.net/mvcb/"
+  xml:lang="en"
+> 
+
+  <head>
+    <title>The Media Format Ontology</title>
+    <meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
+    <link rel="mvvb:generatorAgent" type="application/rdf+xml" title="DOAP" href="http://rdfohloh.wikier.org/project/specgen" />
+    <link rel="meta" type="application/rdf+xml" title="FOAF" href="http://kurtisrandom.com/foaf.rdf" />
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta name="author" content="Kurt Jacobson" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+
+    <h1 id="title">MFO</h1>
+
+    <h2 id="subtitle">The Media Format Ontology - MFO</h2>
+
+    <h3 id="mymw-doctype">Working Draft</h3>
+
+    <dl>
+
+
+      <dt>Latest version:</dt>
+      <dd><a href="http://purl.org/ontology/mfo/">http://purl.org/ontology/mfo/</a> (<a href="mfo.owl">RDF/XML</a>, <a href="mfo.ttl">Turtle</a>)</dd>
+
+      <dt>Last Update:</dt>
+      <dd>Date: %s</dd>
+
+      <dt>Editors:</dt>
+      <dd><a href="http://kurtisrandom.com/" target="_blank">Kurt Jacobson</a>, 
+	<a href="http://www.elec.qmul.ac.uk/digitalmusic/" target="_blank">
+		Centre for Digital Music Queen Mary University of London</a></dd>
+
+      <dt>Authors:</dt>
+      <dd><a href="http://kurtisrandom.com/" target="_blank">Kurt Jacobson</a>, 
+	<a href="http://www.elec.qmul.ac.uk/digitalmusic/" target="_blank">
+		Centre for Digital Music Queen Mary University of London</a></dd>
+
+
+      <dt>Contributors:</dt>
+      <dd>See <a href="#acknowledgments">acknowledgements</a></dd>
+
+    </dl>
+
+    <hr />
+
+    <p class="copyright">You are granted a license to use, reproduce
+    and create derivative works of this document under <a
+     rel="license"
+    href="http://creativecommons.org/licenses/by/3.0/">Creative
+    Commons Attribution 3.0 Unported License</a>.  This copyright applies to <span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">The Similarity Ontology</span> specification and RDF.  <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+    </p>
+
+    <!-- ===================================================================== -->
+
+    <hr />
+
+    <h2 id="abstract">Abstract</h2>
+    The Media Format Ontology is a small extension to the <a href="http://purl.org/ontology/mo/">Music Ontology</a>
+        that provides a series of concepts relate to media formats derived
+        from the MusicBrainz database.
+    <h2>Ontology at a glance</h2>
+    %s
+
+    <!-- ===================================================================== -->
+
+    <h2 id="reference">Cross-reference for MFO classes and properties</h2>
+
+   <!-- The following is the script-generated list of classes and properties -->
+    %s
+    <!-- End of the terms list -->
+
+    <!-- ===================================================================== -->
+
+    <h2 id="references">A References</h2>
+
+    <dl>
+      <dt class="label" id="ref-some">Music Ontology</dt>
+
+      <dd><em><a href="http://purl.org/ontology/mo/">Music
+      Ontology</a></em> a thorough and mature ontology for describing
+      music-related data.  sim:MusicalThing is an owl:unionOf several
+      concepts in the Music Ontology</dd>
+      <!--<dt class="label" id="ref-some">MySpo</dt>
+      <dd><em><a href="http://purl.org/ontology/myspace#">MySpace Ontology</a></em> a small ontology to describe 
+		relationships on myspace</dd>-->
+    </dl>
+
+    <!-- ===================================================================== -->
+
+    <h2 id="changes">B Changes in this version (Non-Normative)</h2>
+        <h3>2010-10-08</h3>
+	<ul>
+	  <li>first publication</li>
+	  <li>all URIs are pulled from
+	  the <code>musicbrainz.medium_format.name</code> column in
+	  the MusicBrainz NGS database - all space " " characters are
+	  replaced with underscore "_" and then URL encoded to
+	  generate a URI from the database column</li>
+	  
+	</ul>
+
+  </body>
+
+</html>
+
